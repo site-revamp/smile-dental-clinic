@@ -1,1 +1,2712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#35264f">
 
+  <title>Smile Dental Clinic Mirdif | Clear Aligners & Specialist Dental Care</title>
+  <meta name="description" content="Discover personalised dental care at Smile Dental Clinic in Mirdif, Dubai. Explore clear aligners, orthodontics, cosmetic dentistry and family dental treatments.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.smiledentalmirdif.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Smile Dental Clinic Mirdif | A More Thoughtful Approach to Your Smile">
+  <meta property="og:description" content="Specialist orthodontics, clear aligners and personalised dental care in Mirdif, Dubai.">
+  <meta property="og:url" content="https://www.smiledentalmirdif.com/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-primary: #8062a7;
+      --color-primary-dark: #49335f;
+      --color-primary-deep: #30213f;
+      --color-primary-light: #eee8f5;
+      --color-secondary: #c5a5db;
+      --color-secondary-dark: #9470b0;
+      --color-accent: #d9b8a6;
+      --color-heading: #30263b;
+      --color-text: #686071;
+      --color-text-muted: #928a98;
+      --color-background: #fffdfb;
+      --color-background-alt: #f8f5fa;
+      --color-surface: #ffffff;
+      --color-surface-alt: #f0eaf5;
+      --color-border: #e9e2ed;
+      --color-border-strong: #d8c9e1;
+      --color-interactive: #735294;
+      --color-interactive-hover: #51396d;
+      --color-focus: #b28bd2;
+
+      --font-heading: "Manrope", sans-serif;
+      --font-body: "DM Sans", sans-serif;
+
+      --container: 1240px;
+      --radius-small: 12px;
+      --radius-medium: 22px;
+      --radius-large: 34px;
+      --shadow-soft: 0 16px 45px rgba(54, 36, 72, .08);
+      --shadow-deep: 0 28px 80px rgba(48, 33, 63, .17);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--color-background);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    body, button, input, textarea {
+      font-family: var(--font-body);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button, a, input {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    img, svg {
+      max-width: 100%;
+    }
+
+    img {
+      display: block;
+    }
+
+    ::selection {
+      color: #fff;
+      background: var(--color-primary);
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 4px;
+    }
+
+    .container {
+      width: min(var(--container), calc(100% - 64px));
+      margin-inline: auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--color-primary);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .19em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 24px;
+      height: 1px;
+      background: currentColor;
+    }
+
+    .section-heading {
+      max-width: 710px;
+      margin-bottom: 44px;
+    }
+
+    .section-heading h2 {
+      margin: 16px 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(34px, 4.2vw, 55px);
+      font-weight: 700;
+      letter-spacing: -.055em;
+      line-height: 1.13;
+    }
+
+    .section-heading p {
+      max-width: 590px;
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .accent-text {
+      color: var(--color-primary);
+    }
+
+    .btn {
+      min-height: 53px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 0 23px;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      background: var(--color-primary);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .025em;
+      transition: background .25s, transform .25s, box-shadow .25s;
+    }
+
+    .btn:hover {
+      background: var(--color-interactive-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(73, 51, 95, .2);
+    }
+
+    .btn-light {
+      background: #fff;
+      color: var(--color-primary-dark);
+      border-color: rgba(255,255,255,.4);
+    }
+
+    .btn-light:hover {
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--color-primary-dark);
+      border-color: var(--color-border-strong);
+    }
+
+    .btn-outline:hover {
+      background: var(--color-primary-light);
+    }
+
+    .arrow {
+      font-size: 17px;
+      line-height: 1;
+    }
+
+    /* Announcement and navigation */
+
+    .announcement {
+      min-height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 6px 16px;
+      background: var(--color-primary-deep);
+      color: #f9f5fc;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: .07em;
+      text-align: center;
+    }
+
+    .announcement span {
+      color: #d9c2e9;
+    }
+
+    .navbar {
+      position: sticky;
+      z-index: 1000;
+      top: 0;
+      background: rgba(255,253,251,.96);
+      border-bottom: 1px solid rgba(73,51,95,.09);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav-inner {
+      min-height: 86px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    .brand-symbol {
+      width: 43px;
+      height: 43px;
+    }
+
+    .brand-name {
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: -.055em;
+      line-height: 1.1;
+    }
+
+    .brand-name small {
+      display: block;
+      margin-top: 4px;
+      color: var(--color-primary);
+      font-family: var(--font-body);
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .19em;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 29px;
+    }
+
+    .nav-links a {
+      color: var(--color-heading);
+      font-size: 11px;
+      font-weight: 700;
+      transition: color .2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--color-primary);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+    }
+
+    .nav-phone {
+      color: var(--color-heading);
+      font-size: 11px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .nav-actions .btn {
+      min-height: 46px;
+      padding-inline: 17px;
+      font-size: 10px;
+    }
+
+    .menu-toggle {
+      width: 43px;
+      height: 43px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--color-border);
+      border-radius: 5px;
+      background: #fff;
+      color: var(--color-heading);
+      font-size: 21px;
+    }
+
+    /* Hero: smile architecture */
+
+    .hero {
+      position: relative;
+      min-height: 670px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse at 82% 25%, rgba(197,165,219,.28), transparent 32%),
+        linear-gradient(110deg, #fcfafc 0%, #f7f2fa 55%, #eee5f3 100%);
+    }
+
+    .hero::before {
+      position: absolute;
+      right: -180px;
+      top: -260px;
+      width: 690px;
+      height: 690px;
+      border: 1px solid rgba(128,98,167,.16);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .hero::after {
+      position: absolute;
+      right: -100px;
+      top: -180px;
+      width: 550px;
+      height: 550px;
+      border: 1px solid rgba(128,98,167,.12);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: .92fr 1.08fr;
+      align-items: center;
+      gap: 45px;
+      padding-block: 78px 85px;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+    }
+
+    .hero-content .eyebrow {
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      max-width: 570px;
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(43px, 5.5vw, 72px);
+      font-weight: 700;
+      letter-spacing: -.075em;
+      line-height: 1.04;
+    }
+
+    .hero h1 em {
+      color: var(--color-primary);
+      font-style: normal;
+    }
+
+    .hero-description {
+      max-width: 440px;
+      margin: 25px 0 30px;
+      color: #716778;
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .hero-location {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 35px;
+      color: var(--color-text-muted);
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .hero-location svg {
+      color: var(--color-primary);
+    }
+
+    .hero-art {
+      position: relative;
+      min-height: 485px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .smile-orbit {
+      position: absolute;
+      width: 450px;
+      height: 450px;
+      border: 1px solid rgba(128,98,167,.19);
+      border-radius: 50%;
+    }
+
+    .smile-orbit::before,
+    .smile-orbit::after {
+      position: absolute;
+      inset: 26px;
+      border: 1px dashed rgba(128,98,167,.18);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .smile-orbit::after {
+      inset: 68px;
+      border-style: solid;
+      opacity: .6;
+    }
+
+    .hero-tooth {
+      position: relative;
+      z-index: 2;
+      width: min(100%, 390px);
+      filter: drop-shadow(0 30px 25px rgba(70,46,89,.13));
+      animation: tooth-float 6s ease-in-out infinite;
+    }
+
+    @keyframes tooth-float {
+      0%, 100% { transform: translateY(0) rotate(-2deg); }
+      50% { transform: translateY(-12px) rotate(1deg); }
+    }
+
+    .hero-note {
+      position: absolute;
+      z-index: 4;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 17px;
+      background: rgba(255,255,255,.95);
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 10px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-note.one {
+      top: 70px;
+      right: -3px;
+    }
+
+    .hero-note.two {
+      bottom: 52px;
+      left: -10px;
+    }
+
+    .note-icon {
+      width: 37px;
+      height: 37px;
+      display: grid;
+      place-items: center;
+      border-radius: 9px;
+      background: var(--color-primary-light);
+      color: var(--color-primary);
+    }
+
+    .hero-note strong {
+      display: block;
+      color: var(--color-heading);
+      font-size: 11px;
+      line-height: 1.3;
+    }
+
+    .hero-note small {
+      display: block;
+      margin-top: 3px;
+      color: var(--color-text-muted);
+      font-size: 9px;
+    }
+
+    /* Credibility strip */
+
+    .trust-strip {
+      position: relative;
+      z-index: 4;
+      background: #fff;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .trust-inner {
+      min-height: 115px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-items: center;
+    }
+
+    .trust-item {
+      min-height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      padding: 10px 20px;
+      border-right: 1px solid var(--color-border);
+    }
+
+    .trust-item:last-child {
+      border-right: 0;
+    }
+
+    .trust-number {
+      color: var(--color-primary);
+      font-family: var(--font-heading);
+      font-size: 29px;
+      font-weight: 800;
+      letter-spacing: -.07em;
+      white-space: nowrap;
+    }
+
+    .trust-label {
+      max-width: 125px;
+      color: var(--color-heading);
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    /* Clinical philosophy */
+
+    .philosophy {
+      padding-block: 125px;
+      overflow: hidden;
+    }
+
+    .philosophy-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 95px;
+    }
+
+    .philosophy-art {
+      position: relative;
+      min-height: 490px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:
+        radial-gradient(ellipse at center, rgba(197,165,219,.3), transparent 65%),
+        var(--color-background-alt);
+      border-radius: 48% 48% 45% 45%;
+    }
+
+    .philosophy-art::before {
+      position: absolute;
+      inset: 25px;
+      border: 1px solid rgba(128,98,167,.2);
+      border-radius: 48% 48% 45% 45%;
+      content: "";
+    }
+
+    .philosophy-art svg {
+      position: relative;
+      z-index: 2;
+      width: 83%;
+    }
+
+    .art-caption {
+      position: absolute;
+      right: -22px;
+      bottom: 42px;
+      max-width: 190px;
+      padding: 18px 21px;
+      background: var(--color-primary-dark);
+      color: #fff;
+      box-shadow: var(--shadow-deep);
+    }
+
+    .art-caption strong {
+      display: block;
+      font-family: var(--font-heading);
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .art-caption small {
+      display: block;
+      margin-top: 7px;
+      color: #dfd1e9;
+      font-size: 10px;
+    }
+
+    .philosophy-content h2 {
+      margin: 18px 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(35px, 4vw, 53px);
+      letter-spacing: -.06em;
+      line-height: 1.15;
+    }
+
+    .philosophy-content p {
+      max-width: 500px;
+      margin: 0 0 18px;
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      margin-top: 15px;
+      color: var(--color-primary);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .text-link span {
+      transition: transform .2s;
+    }
+
+    .text-link:hover span {
+      transform: translateX(5px);
+    }
+
+    /* Five custom clinical icons, exactly 3 + 2 */
+
+    .capabilities {
+      padding-block: 108px 120px;
+      background: var(--color-primary-deep);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .capabilities .section-heading {
+      margin-inline: auto;
+      text-align: center;
+    }
+
+    .capabilities .eyebrow {
+      color: #d7bee9;
+    }
+
+    .capabilities .eyebrow::before {
+      background: currentColor;
+    }
+
+    .capabilities .section-heading h2 {
+      color: #fff;
+    }
+
+    .capabilities .section-heading p {
+      margin-inline: auto;
+      color: #d4c9de;
+    }
+
+    .capability-row {
+      display: grid;
+      gap: 22px;
+      max-width: 1030px;
+      margin-inline: auto;
+    }
+
+    .capability-row.top {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .capability-row.bottom {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 690px;
+      margin-top: 24px;
+    }
+
+    .capability {
+      position: relative;
+      min-height: 205px;
+      padding: 27px 25px;
+      border-top: 1px solid rgba(224,205,239,.35);
+      border-bottom: 1px solid rgba(224,205,239,.13);
+      transition: background .3s, transform .3s;
+    }
+
+    .capability:hover {
+      background: rgba(255,255,255,.055);
+      transform: translateY(-5px);
+    }
+
+    .capability-icon {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 22px;
+      color: #d8bee9;
+    }
+
+    .capability h3 {
+      margin: 0 0 7px;
+      color: #fff;
+      font-family: var(--font-heading);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .capability p {
+      max-width: 270px;
+      margin: 0;
+      color: #c9bdD3;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    /* Aligner editorial feature */
+
+    .aligner-feature {
+      position: relative;
+      padding-block: 130px;
+      overflow: hidden;
+      background: #f7f3f9;
+    }
+
+    .aligner-feature::before {
+      position: absolute;
+      top: -180px;
+      left: -220px;
+      width: 580px;
+      height: 580px;
+      border: 1px solid rgba(128,98,167,.16);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .aligner-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 85px;
+    }
+
+    .aligner-visual {
+      position: relative;
+      min-height: 490px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background: linear-gradient(145deg, #ded0e9, #f5edf8 65%, #fff);
+      border-radius: 5px 160px 5px 5px;
+    }
+
+    .aligner-visual::before,
+    .aligner-visual::after {
+      position: absolute;
+      border: 1px solid rgba(128,98,167,.22);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .aligner-visual::before {
+      width: 420px;
+      height: 420px;
+    }
+
+    .aligner-visual::after {
+      width: 330px;
+      height: 330px;
+    }
+
+    .aligner-svg {
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      max-width: 410px;
+      filter: drop-shadow(0 20px 24px rgba(70,46,89,.14));
+    }
+
+    .aligner-stamp {
+      position: absolute;
+      right: 25px;
+      bottom: 25px;
+      z-index: 3;
+      width: 112px;
+      height: 112px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(73,51,95,.3);
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .09em;
+      text-align: center;
+      text-transform: uppercase;
+      transform: rotate(-12deg);
+    }
+
+    .aligner-content h2 {
+      margin: 18px 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(37px, 4.4vw, 57px);
+      letter-spacing: -.065em;
+      line-height: 1.12;
+    }
+
+    .aligner-content p {
+      margin: 0 0 22px;
+    }
+
+    .aligner-points {
+      margin: 30px 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .aligner-points li {
+      display: flex;
+      align-items: flex-start;
+      gap: 13px;
+      padding-block: 12px;
+      border-bottom: 1px solid var(--color-border);
+      color: var(--color-heading);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .aligner-points svg {
+      flex-shrink: 0;
+      color: var(--color-primary);
+    }
+
+    /* Journey */
+
+    .journey {
+      padding-block: 125px;
+    }
+
+    .journey-heading {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 40px;
+      margin-bottom: 62px;
+    }
+
+    .journey-heading .section-heading {
+      margin-bottom: 0;
+    }
+
+    .journey-track {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0 45px;
+    }
+
+    .journey-track::before {
+      position: absolute;
+      top: 27px;
+      right: 12%;
+      left: 12%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #c7afd7 12%, #c7afd7 88%, transparent);
+      content: "";
+    }
+
+    .journey-step {
+      position: relative;
+      padding-top: 75px;
+      padding-bottom: 34px;
+    }
+
+    .journey-number {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 55px;
+      height: 55px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-primary);
+      border-radius: 50%;
+      background: var(--color-background);
+      color: var(--color-primary);
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .journey-step h3 {
+      margin: 0 0 10px;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 19px;
+      letter-spacing: -.035em;
+    }
+
+    .journey-step p {
+      max-width: 310px;
+      margin: 0;
+      font-size: 13px;
+    }
+
+    /* Specialist team */
+
+    .team {
+      padding-block: 115px;
+      background: var(--color-background-alt);
+    }
+
+    .team-intro {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 40px;
+      margin-bottom: 45px;
+    }
+
+    .team-intro .section-heading {
+      margin-bottom: 0;
+    }
+
+    .team-list {
+      border-top: 1px solid var(--color-border-strong);
+    }
+
+    .doctor {
+      display: grid;
+      grid-template-columns: 80px 1fr 1fr auto;
+      align-items: center;
+      gap: 25px;
+      padding: 25px 5px;
+      border-bottom: 1px solid var(--color-border-strong);
+      transition: padding .2s;
+    }
+
+    .doctor:hover {
+      padding-inline: 14px;
+    }
+
+    .doctor-number {
+      color: var(--color-primary);
+      font-family: var(--font-heading);
+      font-size: 27px;
+      font-weight: 700;
+      letter-spacing: -.07em;
+    }
+
+    .doctor h3 {
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 18px;
+    }
+
+    .doctor p {
+      margin: 5px 0 0;
+      color: var(--color-text-muted);
+      font-size: 11px;
+    }
+
+    .doctor-detail {
+      font-size: 12px;
+    }
+
+    .doctor-arrow {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-border-strong);
+      border-radius: 50%;
+      color: var(--color-primary);
+      font-size: 18px;
+    }
+
+    /* Patient experience */
+
+    .experience {
+      padding-block: 125px;
+    }
+
+    .experience-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      align-items: center;
+      gap: 80px;
+    }
+
+    .experience-content h2 {
+      margin: 17px 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(36px, 4.4vw, 54px);
+      letter-spacing: -.06em;
+      line-height: 1.15;
+    }
+
+    .experience-content p {
+      max-width: 410px;
+    }
+
+    .experience-visual {
+      position: relative;
+      min-height: 360px;
+      display: flex;
+      align-items: center;
+      padding: 60px;
+      background: var(--color-primary-light);
+      overflow: hidden;
+    }
+
+    .experience-visual::after {
+      position: absolute;
+      right: -80px;
+      bottom: -180px;
+      width: 420px;
+      height: 420px;
+      border: 1px solid rgba(128,98,167,.25);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .experience-quote {
+      position: relative;
+      z-index: 2;
+      max-width: 470px;
+    }
+
+    .quote-mark {
+      color: var(--color-primary);
+      font-family: Georgia, serif;
+      font-size: 85px;
+      line-height: .8;
+    }
+
+    .experience-quote h3 {
+      margin: 20px 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: clamp(22px, 2.6vw, 31px);
+      font-weight: 600;
+      letter-spacing: -.04em;
+      line-height: 1.4;
+    }
+
+    .experience-quote small {
+      color: var(--color-primary);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    /* FAQs */
+
+    .faq {
+      padding-block: 110px;
+      background: #f9f6fa;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 90px;
+    }
+
+    .faq-list {
+      border-top: 1px solid var(--color-border-strong);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--color-border-strong);
+    }
+
+    .faq-question {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 22px 0;
+      border: 0;
+      background: transparent;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+    }
+
+    .faq-icon {
+      width: 27px;
+      height: 27px;
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-border-strong);
+      border-radius: 50%;
+      color: var(--color-primary);
+      transition: transform .25s;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .3s ease;
+    }
+
+    .faq-answer p {
+      max-width: 570px;
+      margin: 0;
+      padding: 0 35px 22px 0;
+      font-size: 13px;
+    }
+
+    /* Location and CTA */
+
+    .location {
+      position: relative;
+      padding-block: 115px;
+      overflow: hidden;
+      background: var(--color-primary-deep);
+      color: #fff;
+    }
+
+    .location::before {
+      position: absolute;
+      top: -300px;
+      right: -150px;
+      width: 650px;
+      height: 650px;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .location-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr .85fr;
+      align-items: center;
+      gap: 90px;
+    }
+
+    .location-content .eyebrow {
+      color: #d7bee9;
+    }
+
+    .location-content h2 {
+      max-width: 570px;
+      margin: 18px 0;
+      color: #fff;
+      font-family: var(--font-heading);
+      font-size: clamp(39px, 4.6vw, 59px);
+      letter-spacing: -.065em;
+      line-height: 1.12;
+    }
+
+    .location-content p {
+      max-width: 450px;
+      color: #d3c7de;
+    }
+
+    .location-details {
+      display: grid;
+      gap: 18px;
+      margin-top: 32px;
+    }
+
+    .location-detail {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      color: #fff;
+      font-size: 12px;
+    }
+
+    .location-detail svg {
+      flex-shrink: 0;
+      color: #d7bee9;
+    }
+
+    .location-detail small {
+      display: block;
+      margin-bottom: 4px;
+      color: #c2b2d1;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .location-art {
+      position: relative;
+      min-height: 360px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255,255,255,.18);
+      background:
+        radial-gradient(ellipse at center, rgba(197,165,219,.18), transparent 65%),
+        repeating-linear-gradient(0deg, transparent, transparent 49px, rgba(255,255,255,.055) 50px),
+        repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(255,255,255,.055) 50px);
+    }
+
+    .location-art svg {
+      width: 90%;
+      max-width: 390px;
+    }
+
+    .location-pin-label {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      padding: 12px 15px;
+      background: #fff;
+      color: var(--color-primary-dark);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    /* Footer */
+
+    .footer {
+      padding-block: 65px 25px;
+      background: #241a30;
+      color: #cfc5d7;
+    }
+
+    .footer-main {
+      display: grid;
+      grid-template-columns: 1.3fr .7fr .8fr 1fr;
+      gap: 55px;
+      padding-bottom: 55px;
+    }
+
+    .footer .brand-name {
+      color: #fff;
+    }
+
+    .footer-description {
+      max-width: 270px;
+      margin-top: 20px;
+      font-size: 12px;
+    }
+
+    .footer h3 {
+      margin: 0 0 20px;
+      color: #fff;
+      font-family: var(--font-heading);
+      font-size: 12px;
+    }
+
+    .footer-links {
+      display: grid;
+      gap: 11px;
+    }
+
+    .footer-links a {
+      font-size: 11px;
+      transition: color .2s;
+    }
+
+    .footer-links a:hover {
+      color: #d7bee9;
+    }
+
+    .footer-contact {
+      display: grid;
+      gap: 13px;
+      font-size: 11px;
+    }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255,255,255,.12);
+      font-size: 10px;
+    }
+
+    /* Mobile contact bar */
+
+    .mobile-contact {
+      position: fixed;
+      z-index: 999;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: none;
+      grid-template-columns: 1fr 1fr;
+      padding: 9px 12px calc(9px + env(safe-area-inset-bottom));
+      background: rgba(255,255,255,.97);
+      border-top: 1px solid var(--color-border);
+      box-shadow: 0 -8px 25px rgba(48,33,63,.08);
+      backdrop-filter: blur(12px);
+    }
+
+    .mobile-contact a {
+      min-height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .mobile-contact a:first-child {
+      color: var(--color-primary-dark);
+    }
+
+    .mobile-contact a:last-child {
+      margin-left: 7px;
+      background: var(--color-primary);
+      color: #fff;
+    }
+
+    /* Scroll reveal */
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .7s ease, transform .7s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive */
+
+    @media (max-width: 1050px) {
+      .nav-links {
+        gap: 17px;
+      }
+
+      .nav-phone {
+        display: none;
+      }
+
+      .hero-grid {
+        gap: 20px;
+      }
+
+      .hero-art {
+        transform: scale(.92);
+      }
+
+      .philosophy-grid,
+      .aligner-grid {
+        gap: 55px;
+      }
+
+      .experience-grid,
+      .faq-grid,
+      .location-grid {
+        gap: 55px;
+      }
+
+      .footer-main {
+        gap: 30px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .container {
+        width: min(100% - 40px, 620px);
+      }
+
+      .nav-inner {
+        min-height: 73px;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        display: none;
+        align-items: stretch;
+        gap: 0;
+        padding: 12px 20px 20px;
+        background: #fffdfb;
+        border-bottom: 1px solid var(--color-border);
+      }
+
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .nav-links a {
+        padding: 13px 5px;
+        border-bottom: 1px solid var(--color-border);
+      }
+
+      .nav-actions .btn {
+        min-height: 42px;
+      }
+
+      .hero {
+        min-height: initial;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding-block: 65px 35px;
+      }
+
+      .hero-content {
+        max-width: 580px;
+      }
+
+      .hero h1 {
+        max-width: 520px;
+        font-size: clamp(44px, 9vw, 65px);
+      }
+
+      .hero-description {
+        max-width: 510px;
+      }
+
+      .hero-art {
+        min-height: 390px;
+        margin-top: 10px;
+        transform: none;
+      }
+
+      .hero-tooth {
+        width: 320px;
+      }
+
+      .smile-orbit {
+        width: 350px;
+        height: 350px;
+      }
+
+      .hero-note.one {
+        top: 30px;
+        right: 0;
+      }
+
+      .hero-note.two {
+        bottom: 18px;
+        left: 0;
+      }
+
+      .trust-inner {
+        grid-template-columns: repeat(2, 1fr);
+        padding-block: 13px;
+      }
+
+      .trust-item {
+        justify-content: flex-start;
+        padding: 17px 15px;
+      }
+
+      .trust-item:nth-child(2) {
+        border-right: 0;
+      }
+
+      .philosophy,
+      .journey,
+      .experience {
+        padding-block: 85px;
+      }
+
+      .philosophy-grid,
+      .aligner-grid,
+      .experience-grid,
+      .faq-grid,
+      .location-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+      }
+
+      .philosophy-art {
+        max-width: 510px;
+        margin-inline: auto;
+      }
+
+      .capabilities,
+      .aligner-feature,
+      .team,
+      .faq,
+      .location {
+        padding-block: 85px;
+      }
+
+      .aligner-visual {
+        min-height: 390px;
+        order: 2;
+      }
+
+      .capability-row {
+        gap: 10px;
+      }
+
+      .capability {
+        padding: 23px 15px;
+      }
+
+      .capability-icon {
+        width: 53px;
+        height: 53px;
+      }
+
+      .journey-heading,
+      .team-intro {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .journey-track {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 30px;
+      }
+
+      .journey-track::before {
+        display: none;
+      }
+
+      .doctor {
+        grid-template-columns: 50px 1fr auto;
+        gap: 16px;
+      }
+
+      .doctor-detail {
+        display: none;
+      }
+
+      .location-art {
+        min-height: 320px;
+      }
+
+      .footer-main {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 25px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      body {
+        font-size: 14px;
+        padding-bottom: 65px;
+      }
+
+      .container {
+        width: calc(100% - 36px);
+      }
+
+      .announcement {
+        font-size: 9px;
+      }
+
+      .brand-symbol {
+        width: 36px;
+        height: 36px;
+      }
+
+      .brand-name {
+        font-size: 16px;
+      }
+
+      .nav-actions .btn {
+        display: none;
+      }
+
+      .hero-grid {
+        padding-top: 53px;
+      }
+
+      .hero h1 {
+        font-size: clamp(42px, 11.5vw, 55px);
+      }
+
+      .hero-description {
+        margin-block: 19px 24px;
+        font-size: 13px;
+      }
+
+      .hero-actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .hero-actions .btn {
+        padding-inline: 10px;
+        font-size: 10px;
+      }
+
+      .hero-art {
+        min-height: 325px;
+      }
+
+      .hero-tooth {
+        width: 260px;
+      }
+
+      .smile-orbit {
+        width: 290px;
+        height: 290px;
+      }
+
+      .hero-note {
+        gap: 8px;
+        padding: 10px;
+      }
+
+      .hero-note.one {
+        top: 13px;
+        right: -4px;
+      }
+
+      .hero-note.two {
+        bottom: 10px;
+        left: -4px;
+      }
+
+      .note-icon {
+        width: 30px;
+        height: 30px;
+      }
+
+      .hero-note strong {
+        font-size: 9px;
+      }
+
+      .hero-note small {
+        font-size: 8px;
+      }
+
+      .trust-number {
+        font-size: 23px;
+      }
+
+      .trust-label {
+        font-size: 9px;
+      }
+
+      .trust-item {
+        gap: 9px;
+        padding-inline: 5px;
+      }
+
+      .section-heading {
+        margin-bottom: 30px;
+      }
+
+      .section-heading h2,
+      .philosophy-content h2,
+      .experience-content h2 {
+        font-size: 36px;
+      }
+
+      .philosophy-art {
+        min-height: 350px;
+      }
+
+      .art-caption {
+        right: -4px;
+        bottom: 20px;
+      }
+
+      .capability-row.top {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .capability-row.bottom {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10px;
+      }
+
+      .capability {
+        min-height: 185px;
+        padding: 18px 11px;
+      }
+
+      .capability h3 {
+        font-size: 13px;
+      }
+
+      .capability p {
+        font-size: 10px;
+      }
+
+      .capability-icon {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 15px;
+      }
+
+      .aligner-visual {
+        min-height: 310px;
+      }
+
+      .aligner-content h2 {
+        font-size: 39px;
+      }
+
+      .journey-track {
+        grid-template-columns: 1fr;
+      }
+
+      .journey-step {
+        min-height: 135px;
+        padding-top: 13px;
+        padding-left: 75px;
+      }
+
+      .journey-number {
+        width: 49px;
+        height: 49px;
+      }
+
+      .doctor {
+        grid-template-columns: 35px 1fr auto;
+        gap: 12px;
+        padding-block: 19px;
+      }
+
+      .doctor-number {
+        font-size: 21px;
+      }
+
+      .doctor h3 {
+        font-size: 14px;
+      }
+
+      .doctor p {
+        font-size: 10px;
+      }
+
+      .experience-visual {
+        min-height: 300px;
+        padding: 30px;
+      }
+
+      .faq-grid {
+        gap: 25px;
+      }
+
+      .location-content h2 {
+        font-size: 41px;
+      }
+
+      .location-art {
+        min-height: 265px;
+      }
+
+      .footer-main {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px 18px;
+      }
+
+      .footer-main > div:first-child {
+        grid-column: 1 / -1;
+      }
+
+      .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .mobile-contact {
+        display: grid;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Smile Dental Clinic",
+    "url": "https://www.smiledentalmirdif.com/",
+    "telephone": "+97142269474",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Central Building, 15th Street, Mirdif",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    },
+    "areaServed": [
+      "Mirdif",
+      "Al Khawaneej",
+      "Al Warqa",
+      "Mezher",
+      "Dubai"
+    ],
+    "medicalSpecialty": "Dentistry"
+  }
+  </script>
+</head>
+
+<body>
+
+  <div class="announcement">
+    SPECIALIST ORTHODONTICS & CLEAR ALIGNER CARE
+    <span>—</span>
+    MIRDIF, DUBAI
+  </div>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+
+      <a href="#home" class="brand" aria-label="Smile Dental Clinic homepage">
+        <svg class="brand-symbol" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+          <path d="M30 5C20 5 10 10 10 23C10 36 17 52 24 52C29 52 27 37 31 37C35 37 33 52 39 52C47 52 52 34 51 22C50 10 40 5 30 5Z" fill="#8062A7"/>
+          <path d="M18 23C24 28 36 28 43 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M21 15C25 12 35 12 40 15" stroke="#DCC9E9" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-name">
+          Smile Dental
+          <small>Clinic · Mirdif Dubai</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="navigation" aria-label="Main navigation">
+        <a href="#about">Our Approach</a>
+        <a href="#specialities">Specialities</a>
+        <a href="#aligners">Clear Aligners</a>
+        <a href="#team">Our Doctors</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="nav-phone" href="tel:+97142269474">04 226 9474</a>
+        <a class="btn" href="https://wa.me/971506034041?text=Hello%20Smile%20Dental%20Clinic%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment.">
+          Book a Visit <span class="arrow">↗</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation">☰</button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <span class="eyebrow">A more thoughtful dental experience</span>
+
+          <h1>
+            A smile that feels <em>like you.</em>
+          </h1>
+
+          <p class="hero-description">
+            From specialist orthodontics and clear aligners to everyday family dental care, discover personalised treatment at Smile Dental Clinic in Mirdif, Dubai.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="https://wa.me/971506034041?text=Hello%2C%20I%20would%20like%20to%20book%20a%20dental%20consultation.">
+              Book a Consultation <span class="arrow">↗</span>
+            </a>
+            <a class="btn btn-outline" href="#specialities">
+              Explore Treatments <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="hero-location">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>
+              <circle cx="12" cy="10" r="2.5"/>
+            </svg>
+            Central Building, 15th Street, Mirdif, Dubai
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Original dental illustration">
+
+          <div class="smile-orbit"></div>
+
+          <svg class="hero-tooth" viewBox="0 0 440 480" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="toothMain" x1="95" y1="40" x2="350" y2="420" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFFFFF"/>
+                <stop offset=".55" stop-color="#F5F0FA"/>
+                <stop offset="1" stop-color="#D9C9E7"/>
+              </linearGradient>
+              <linearGradient id="toothEdge" x1="120" y1="80" x2="320" y2="390" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFFFFF"/>
+                <stop offset="1" stop-color="#BCA2D1"/>
+              </linearGradient>
+              <filter id="toothShadow" x="20" y="20" width="400" height="450" filterUnits="userSpaceOnUse">
+                <feGaussianBlur stdDeviation="10"/>
+              </filter>
+            </defs>
+
+            <ellipse cx="220" cy="418" rx="115" ry="17" fill="#8062A7" opacity=".14" filter="url(#toothShadow)"/>
+
+            <path d="M220 68C162 28 82 58 68 132C57 192 92 247 119 316C138 364 142 407 171 408C199 409 195 343 222 342C249 341 249 410 281 408C311 406 313 361 333 315C360 250 393 192 372 127C350 59 277 32 220 68Z"
+              fill="url(#toothMain)" stroke="url(#toothEdge)" stroke-width="5"/>
+
+            <path d="M100 131C112 91 152 75 181 89" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity=".8"/>
+            <path d="M115 153C124 124 146 108 169 107" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+
+            <path d="M121 231C169 266 272 272 323 226" stroke="#B49BCB" stroke-width="4" stroke-linecap="round" opacity=".35"/>
+
+            <path d="M132 280C164 315 274 321 310 279" stroke="#C4B0D6" stroke-width="2" opacity=".45"/>
+
+            <circle cx="343" cy="105" r="13" fill="#FFFFFF" opacity=".85"/>
+            <circle cx="366" cy="133" r="5" fill="#FFFFFF"/>
+            <circle cx="83" cy="213" r="7" fill="#D4C1E2"/>
+          </svg>
+
+          <div class="hero-note one">
+            <div class="note-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Specialist Orthodontics</strong>
+              <small>Personalised treatment planning</small>
+            </div>
+          </div>
+
+          <div class="hero-note two">
+            <div class="note-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                <path d="M4 12c3-7 13-7 16 0-3 7-13 7-16 0Z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Digital Smile Planning</strong>
+              <small>A considered approach to your smile</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- VERIFIED BUSINESS CLAIMS FROM THE CURRENT WEBSITE -->
+    <section class="trust-strip" aria-label="Clinic information">
+      <div class="container trust-inner">
+
+        <div class="trust-item">
+          <div class="trust-number">30+</div>
+          <div class="trust-label">Years of experience highlighted by the clinic's consultant orthodontist</div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-number">7K+</div>
+          <div class="trust-label">Successful cases attributed to the consultant orthodontist</div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-number">3D</div>
+          <div class="trust-label">Digital scan and personalised treatment planning</div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-number">14</div>
+          <div class="trust-label">Days advertised for custom Klär aligner delivery</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="philosophy" id="about">
+      <div class="container philosophy-grid">
+
+        <div class="philosophy-art reveal">
+          <svg viewBox="0 0 500 440" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="faceGradient" x1="80" y1="20" x2="430" y2="430" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#D7C4E5"/>
+                <stop offset="1" stop-color="#A786C0"/>
+              </linearGradient>
+              <linearGradient id="faceHighlight" x1="200" y1="50" x2="350" y2="360" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F9F4FC"/>
+                <stop offset="1" stop-color="#E4D5EF"/>
+              </linearGradient>
+            </defs>
+
+            <path d="M90 340C42 265 55 131 127 71C199 11 329 19 392 101C451 177 438 293 375 358" stroke="#B99FCC" stroke-width="2" stroke-dasharray="5 8"/>
+
+            <path d="M147 93C185 50 255 35 316 61C375 86 409 146 399 215C389 288 350 351 282 383C245 400 190 374 164 344C119 292 102 144 147 93Z" fill="url(#faceGradient)"/>
+
+            <path d="M172 120C205 91 270 82 319 107C362 128 380 171 373 217C365 264 337 312 296 335C254 359 210 339 184 309C150 271 137 161 172 120Z" fill="url(#faceHighlight)" opacity=".85"/>
+
+            <path d="M176 206C192 189 217 186 234 199" stroke="#8062A7" stroke-width="5" stroke-linecap="round"/>
+            <path d="M282 198C302 183 326 189 342 204" stroke="#8062A7" stroke-width="5" stroke-linecap="round"/>
+            <path d="M197 265C234 292 284 294 320 261" stroke="#8062A7" stroke-width="5" stroke-linecap="round"/>
+            <path d="M208 266C246 279 279 280 310 264" stroke="white" stroke-width="9" stroke-linecap="round"/>
+
+            <path d="M247 214L242 245L256 250" stroke="#B38FCA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+            <circle cx="122" cy="139" r="8" fill="#8062A7"/>
+            <circle cx="380" cy="295" r="6" fill="#C5A5DB"/>
+            <path d="M72 370L109 370L125 350" stroke="#B99FCC" stroke-width="2"/>
+            <path d="M382 73L419 73L436 94" stroke="#B99FCC" stroke-width="2"/>
+          </svg>
+
+          <div class="art-caption">
+            <strong>Your smile. Your journey.</strong>
+            <small>Care shaped around individual needs.</small>
+          </div>
+        </div>
+
+        <div class="philosophy-content reveal">
+          <span class="eyebrow">The Smile Dental approach</span>
+          <h2>Good dentistry begins with <span class="accent-text">understanding you.</span></h2>
+
+          <p>
+            Choosing dental treatment is personal. You deserve to understand your options, feel comfortable asking questions and know what to expect at every stage.
+          </p>
+
+          <p>
+            At Smile Dental Clinic, the focus extends from everyday dental care to specialist orthodontic treatments, including digitally planned clear aligners.
+          </p>
+
+          <p>
+            Whether you are exploring teeth straightening or looking for dental care for your family, the first step is a conversation about your needs.
+          </p>
+
+          <a class="text-link" href="#team">Meet the clinical team <span>→</span></a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FIVE CUSTOM ICONS -->
+    <section class="capabilities" id="specialities">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">Care across your dental journey</span>
+          <h2>Different needs. <br>One place to begin.</h2>
+          <p>
+            Explore the treatment areas highlighted by Smile Dental Clinic, with options to discuss the most appropriate care for your individual needs.
+          </p>
+        </div>
+
+        <div class="capability-row top">
+
+          <article class="capability reveal">
+            <svg class="capability-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <path d="M32 7C22 7 14 13 14 26C14 38 21 55 27 55C31 55 30 42 33 42C36 42 35 55 40 55C47 55 53 36 51 24C49 12 41 7 32 7Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 25C26 30 38 30 45 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M23 17C28 13 36 13 41 17" stroke="#D9B8A6" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>Orthodontics</h3>
+            <p>Explore treatment options for teeth alignment and different bite concerns.</p>
+          </article>
+
+          <article class="capability reveal">
+            <svg class="capability-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <path d="M9 32C18 17 46 17 55 32C46 47 18 47 9 32Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M17 32C24 24 40 24 47 32C40 40 24 40 17 32Z" stroke="currentColor" stroke-width="2"/>
+              <circle cx="32" cy="32" r="5" stroke="#D9B8A6" stroke-width="2"/>
+              <path d="M32 7V15M32 49V57M7 32H14M50 32H57" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>Clear Aligners</h3>
+            <p>Digitally planned transparent aligner treatment through the Klär programme.</p>
+          </article>
+
+          <article class="capability reveal">
+            <svg class="capability-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <path d="M12 13H52V43H12V13Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 50H44M32 43V50" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 30C25 25 39 25 44 30" stroke="#D9B8A6" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M22 35C27 39 37 39 42 35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>Digital Dentistry</h3>
+            <p>Digital impressions and 3D scanning support personalised treatment planning.</p>
+          </article>
+
+        </div>
+
+        <div class="capability-row bottom">
+
+          <article class="capability reveal">
+            <svg class="capability-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <path d="M12 12H52V52H12V12Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M21 23C24 18 29 18 32 23C35 18 40 18 43 23C47 31 38 41 32 45C26 41 17 31 21 23Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M22 50H42" stroke="#D9B8A6" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>Cosmetic Dentistry</h3>
+            <p>Discuss smile-enhancing options such as veneers and professional whitening.</p>
+          </article>
+
+          <article class="capability reveal">
+            <svg class="capability-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <circle cx="23" cy="22" r="9" stroke="currentColor" stroke-width="2"/>
+              <circle cx="42" cy="25" r="7" stroke="currentColor" stroke-width="2"/>
+              <path d="M7 53C8 40 16 35 24 35C32 35 38 41 39 53" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M37 39C47 35 56 42 57 53" stroke="#D9B8A6" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>Family Dentistry</h3>
+            <p>Dental care options for children and adults, with an emphasis on comfort.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CLEAR ALIGNERS -->
+    <section class="aligner-feature" id="aligners">
+      <div class="container aligner-grid">
+
+        <div class="aligner-visual reveal">
+          <svg class="aligner-svg" viewBox="0 0 440 380" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="alignerBase" x1="70" y1="30" x2="370" y2="350" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFFFFF" stop-opacity=".95"/>
+                <stop offset="1" stop-color="#BCA4D1" stop-opacity=".8"/>
+              </linearGradient>
+              <linearGradient id="alignerShine" x1="120" y1="60" x2="330" y2="300" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFFFFF"/>
+                <stop offset="1" stop-color="#E4D6EE"/>
+              </linearGradient>
+            </defs>
+
+            <path d="M68 123C100 65 151 47 220 47C289 47 340 65 372 123L343 240C323 293 280 328 220 337C160 328 117 293 97 240L68 123Z" fill="url(#alignerBase)" stroke="#A78ABD" stroke-width="2"/>
+
+            <path d="M91 130C125 91 168 78 220 78C272 78 315 91 349 130L322 235C306 271 271 295 220 303C169 295 134 271 118 235L91 130Z" fill="url(#alignerShine)" stroke="#FFFFFF" stroke-width="3"/>
+
+            <path d="M101 151C143 177 297 177 339 151" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+
+            <path d="M129 201C151 218 170 220 190 205M193 204C207 216 232 216 247 204M250 205C271 219 291 216 311 199" stroke="#A78ABD" stroke-width="3" stroke-linecap="round"/>
+
+            <path d="M133 123L111 96M307 123L329 96" stroke="#8062A7" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 6"/>
+            <circle cx="111" cy="96" r="5" fill="#8062A7"/>
+            <circle cx="329" cy="96" r="5" fill="#8062A7"/>
+
+            <path d="M220 18V2M385 190H418M54 190H22" stroke="#A78ABD" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+
+          <div class="aligner-stamp">Klär<br>Clear<br>Aligners</div>
+        </div>
+
+        <div class="aligner-content reveal">
+          <span class="eyebrow">The Klär clear aligner experience</span>
+          <h2>A more considered way to explore <span class="accent-text">teeth straightening.</span></h2>
+
+          <p>
+            Smile Dental Clinic presents Klär as a specialist clear aligner programme, combining digital assessment, personalised planning and orthodontic supervision.
+          </p>
+
+          <ul class="aligner-points">
+            <li>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m5 12 4 4L19 6"/>
+              </svg>
+              Initial consultation and digital 3D scanning.
+            </li>
+            <li>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m5 12 4 4L19 6"/>
+              </svg>
+              Treatment planning and case assessment.
+            </li>
+            <li>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m5 12 4 4L19 6"/>
+              </svg>
+              A personalised preview of the proposed smile.
+            </li>
+            <li>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m5 12 4 4L19 6"/>
+              </svg>
+              Follow-up appointments to monitor progress.
+            </li>
+          </ul>
+
+          <a class="btn" href="https://wa.me/971506521304?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20Klar%20clear%20aligners.">
+            Explore Klär Aligners <span class="arrow">↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PATIENT JOURNEY -->
+    <section class="journey">
+      <div class="container">
+
+        <div class="journey-heading">
+          <div class="section-heading reveal">
+            <span class="eyebrow">A clear path forward</span>
+            <h2>Know what happens <span class="accent-text">next.</span></h2>
+            <p>Understanding the process makes it easier to take your first step with confidence.</p>
+          </div>
+          <a class="text-link" href="https://wa.me/971506034041?text=Hello%2C%20I%20have%20a%20question%20about%20booking%20a%20consultation.">Ask about an appointment <span>→</span></a>
+        </div>
+
+        <div class="journey-track">
+
+          <article class="journey-step reveal">
+            <div class="journey-number">01</div>
+            <h3>Start with a conversation</h3>
+            <p>Discuss your dental concerns, expectations and the treatment options you would like to explore.</p>
+          </article>
+
+          <article class="journey-step reveal">
+            <div class="journey-number">02</div>
+            <h3>Assessment and scanning</h3>
+            <p>For aligner treatment, digital scanning helps the clinical team assess your teeth and plan the next steps.</p>
+          </article>
+
+          <article class="journey-step reveal">
+            <div class="journey-number">03</div>
+            <h3>Review your treatment plan</h3>
+            <p>Understand the proposed approach and review the personalised treatment preview where applicable.</p>
+          </article>
+
+          <article class="journey-step reveal">
+            <div class="journey-number">04</div>
+            <h3>Begin your treatment</h3>
+            <p>Proceed with the treatment recommended by your clinician following your consultation and assessment.</p>
+          </article>
+
+          <article class="journey-step reveal">
+            <div class="journey-number">05</div>
+            <h3>Stay connected</h3>
+            <p>Attend your scheduled follow-up appointments and receive guidance throughout your treatment.</p>
+          </article>
+
+          <article class="journey-step reveal">
+            <div class="journey-number">06</div>
+            <h3>Discuss long-term care</h3>
+            <p>Your clinician can explain retention and ongoing care after orthodontic treatment is completed.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team" id="team">
+      <div class="container">
+
+        <div class="team-intro">
+          <div class="section-heading reveal">
+            <span class="eyebrow">The people behind your care</span>
+            <h2>Meet the clinical <span class="accent-text">team.</span></h2>
+            <p>Get to know the clinicians highlighted by Smile Dental Clinic and their areas of practice.</p>
+          </div>
+        </div>
+
+        <div class="team-list">
+
+          <article class="doctor reveal">
+            <div class="doctor-number">01</div>
+            <div>
+              <h3>Dr. Mohannad Kishi</h3>
+              <p>Consultant Orthodontist & Klär Specialist</p>
+            </div>
+            <div class="doctor-detail">
+              Consultant orthodontist with a specialty degree from the University of Bourgogne, France, as presented by the clinic.
+            </div>
+            <div class="doctor-arrow">↗</div>
+          </article>
+
+          <article class="doctor reveal">
+            <div class="doctor-number">02</div>
+            <div>
+              <h3>Dr. Alaa Al Tair</h3>
+              <p>Specialist Orthodontist & Klär Specialist</p>
+            </div>
+            <div class="doctor-detail">
+              Specialist orthodontist with a focus on clear aligner treatment.
+            </div>
+            <div class="doctor-arrow">↗</div>
+          </article>
+
+          <article class="doctor reveal">
+            <div class="doctor-number">03</div>
+            <div>
+              <h3>Dr. Ayham Labban</h3>
+              <p>General Dentist</p>
+            </div>
+            <div class="doctor-detail">
+              General dental care for children and adults, with an emphasis on comfortable treatment.
+            </div>
+            <div class="doctor-arrow">↗</div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience">
+      <div class="container experience-grid">
+
+        <div class="experience-content reveal">
+          <span class="eyebrow">Your comfort matters</span>
+          <h2>Clear answers. Personal attention. <span class="accent-text">Thoughtful care.</span></h2>
+
+          <p>
+            Dental treatment should never feel like a guessing game. Understanding your options, knowing the next steps and being able to ask questions are all important parts of the experience.
+          </p>
+
+          <a class="text-link" href="tel:+97142269474">Speak with the clinic <span>→</span></a>
+        </div>
+
+        <div class="experience-visual reveal">
+          <div class="experience-quote">
+            <div class="quote-mark">“</div>
+            <h3>Your treatment should begin with understanding what matters to you — not simply choosing a procedure.</h3>
+            <small>The Smile Dental approach</small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container faq-grid">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">Helpful information</span>
+          <h2>Questions before your <span class="accent-text">first visit?</span></h2>
+          <p>Here are some useful starting points. Your clinician can provide advice based on your individual dental needs.</p>
+
+          <a class="text-link" href="https://wa.me/971506034041?text=Hello%2C%20I%20have%20a%20question%20about%20dental%20treatment.">Ask the clinic a question <span>→</span></a>
+        </div>
+
+        <div class="faq-list">
+
+          <article class="faq-item active">
+            <button class="faq-question" aria-expanded="true">
+              What are clear aligners?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Clear aligners are removable, transparent trays designed to gradually move teeth. Suitability and the appropriate treatment plan depend on an orthodontic assessment.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do you offer braces as well as clear aligners?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. The clinic's website describes orthodontic options that include traditional braces and clear aligner treatment. Your clinician can help determine which approach may be suitable.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How long does aligner treatment take?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Treatment duration varies depending on the individual case. The clinic's published information gives a typical range of 6 to 24 months, but your clinician must assess your specific needs.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What happens at the first appointment?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Your first visit is an opportunity to discuss your concerns and undergo an appropriate assessment. For the clear aligner journey, the clinic describes a consultation and digital 3D scan.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Are clear aligners suitable for everyone?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Not every orthodontic case is suitable for aligners. An orthodontist needs to examine your teeth and bite before recommending an appropriate treatment option.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Where is Smile Dental Clinic located?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>The clinic is located at Central Building, 15th Street, Mirdif, Dubai. Call the clinic before visiting to confirm directions and current appointment availability.</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How can I book an appointment?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>You can contact the clinic using its published landline number, +971 4 226 9474, or enquire through the WhatsApp contact provided on this page.</p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LOCAL CONTACT -->
+    <section class="location" id="contact">
+      <div class="container location-grid">
+
+        <div class="location-content reveal">
+          <span class="eyebrow">Find us in Mirdif</span>
+          <h2>Your next step starts with a <span style="color:#D9B8A6;">conversation.</span></h2>
+
+          <p>
+            Have a question about clear aligners, orthodontics or general dental care? Contact the clinic to discuss your needs and arrange an appointment.
+          </p>
+
+          <div class="location-details">
+
+            <div class="location-detail">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>
+                <circle cx="12" cy="10" r="2.5"/>
+              </svg>
+              <div>
+                <small>Clinic address</small>
+                Central Building, 15th Street, Mirdif, Dubai, UAE
+              </div>
+            </div>
+
+            <div class="location-detail">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.4 2.8a2 2 0 0 1-.6 1.7L7 10a16 16 0 0 0 7 7l1.8-1.9a2 2 0 0 1 1.7-.6l2.8.4a2 2 0 0 1 1.7 2Z"/>
+              </svg>
+              <div>
+                <small>Call the clinic</small>
+                <a href="tel:+97142269474">+971 4 226 9474</a>
+              </div>
+            </div>
+
+            <div class="location-detail">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9.4 9.4 0 0 1-4-.9L3 21l1.9-4.8A8.4 8.4 0 1 1 21 11.5Z"/>
+              </svg>
+              <div>
+                <small>WhatsApp enquiries</small>
+                <a href="https://wa.me/971506034041">+971 50 603 4041</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:35px;">
+            <a class="btn btn-light" href="https://wa.me/971506034041?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment.">
+              Contact on WhatsApp <span class="arrow">↗</span>
+            </a>
+            <a class="btn btn-outline" style="border-color:rgba(255,255,255,.35);color:#fff;" href="tel:+97142269474">
+              Call the Clinic
+            </a>
+          </div>
+        </div>
+
+        <div class="location-art reveal">
+          <svg viewBox="0 0 400 320" fill="none" aria-label="Illustration representing the clinic's Mirdif location">
+            <path d="M40 65H360M40 125H360M40 185H360M40 245H360" stroke="#D8C3E8" stroke-opacity=".22" stroke-width="1"/>
+            <path d="M65 30V290M125 30V290M185 30V290M245 30V290M305 30V290" stroke="#D8C3E8" stroke-opacity=".22" stroke-width="1"/>
+
+            <path d="M65 220L120 220L145 165L205 165L230 220L340 220" stroke="#D8C3E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+            <path d="M90 220V170H130V220M245 220V150H295V220" stroke="#D8C3E8" stroke-width="2"/>
+
+            <path d="M110 170L110 130L125 115L140 130V170" stroke="#D8C3E8" stroke-width="2"/>
+            <path d="M255 150L270 125L285 150" stroke="#D8C3E8" stroke-width="2"/>
+
+            <path d="M190 140C190 119 206 102 226 102C246 102 262 119 262 140C262 170 226 202 226 202C226 202 190 170 190 140Z" fill="#D9B8A6"/>
+
+            <circle cx="226" cy="139" r="12" fill="#49335F"/>
+            <path d="M220 139C223 135 229 135 232 139C229 143 223 143 220 139Z" fill="white"/>
+
+            <path d="M45 260C90 245 140 248 180 262C225 277 270 277 350 252" stroke="#D8C3E8" stroke-width="2" stroke-dasharray="5 8"/>
+          </svg>
+
+          <div class="location-pin-label">SMILE DENTAL · MIRDIF</div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div>
+          <a href="#home" class="brand">
+            <svg class="brand-symbol" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+              <path d="M30 5C20 5 10 10 10 23C10 36 17 52 24 52C29 52 27 37 31 37C35 37 33 52 39 52C47 52 52 34 51 22C50 10 40 5 30 5Z" fill="#B99FCC"/>
+              <path d="M18 23C24 28 36 28 43 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <span class="brand-name">
+              Smile Dental
+              <small>Clinic · Mirdif Dubai</small>
+            </span>
+          </a>
+
+          <p class="footer-description">
+            Specialist orthodontics, clear aligners and personalised dental care in Mirdif, Dubai.
+          </p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="#about">Our Approach</a>
+            <a href="#specialities">Specialities</a>
+            <a href="#aligners">Clear Aligners</a>
+            <a href="#team">Our Doctors</a>
+            <a href="#faq">FAQs</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Our Treatments</h3>
+          <div class="footer-links">
+            <a href="#specialities">Orthodontics</a>
+            <a href="#aligners">Clear Aligners</a>
+            <a href="#specialities">Digital Dentistry</a>
+            <a href="#specialities">Cosmetic Dentistry</a>
+            <a href="#specialities">Family Dentistry</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Get in Touch</h3>
+          <div class="footer-contact">
+            <a href="tel:+97142269474">+971 4 226 9474</a>
+            <a href="https://wa.me/971506034041">+971 50 603 4041</a>
+            <span>Central Building, 15th Street, Mirdif, Dubai, UAE</span>
+            <a href="https://www.smiledentalmirdif.com/" target="_blank" rel="noopener noreferrer">Official Website ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="currentYear">2026</span> Smile Dental Clinic. All rights reserved.</span>
+        <span>Personalised dental care · Mirdif, Dubai</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MOBILE CONTACT ACTIONS -->
+  <div class="mobile-contact" aria-label="Quick contact">
+    <a href="tel:+97142269474">
+      <span>☎</span> Call Clinic
+    </a>
+    <a href="https://wa.me/971506034041?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20an%20appointment.">
+      <span>↗</span> Book Appointment
+    </a>
+  </div>
+
+  <script>
+    // Mobile navigation
+    const menuToggle = document.getElementById("menuToggle");
+    const navigation = document.getElementById("navigation");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navigation.classList.toggle("open");
+
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation" : "Open navigation"
+      );
+
+      menuToggle.textContent = isOpen ? "×" : "☰";
+    });
+
+    navigation.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation");
+        menuToggle.textContent = "☰";
+      });
+    });
+
+    // Accessible FAQ accordion
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach(item => {
+      const button = item.querySelector(".faq-question");
+      const answer = item.querySelector(".faq-answer");
+
+      if (item.classList.contains("active")) {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+      }
+
+      button.addEventListener("click", () => {
+        const wasActive = item.classList.contains("active");
+
+        faqItems.forEach(other => {
+          other.classList.remove("active");
+          other.querySelector(".faq-question").setAttribute("aria-expanded", "false");
+          other.querySelector(".faq-answer").style.maxHeight = null;
+        });
+
+        if (!wasActive) {
+          item.classList.add("active");
+          button.setAttribute("aria-expanded", "true");
+          answer.style.maxHeight = answer.scrollHeight + "px";
+        }
+      });
+    });
+
+    // Scroll reveal with reduced-motion fallback
+    const revealElements = document.querySelectorAll(".reveal");
+
+    if ("IntersectionObserver" in window &&
+        !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+
+      const observer = new IntersectionObserver((entries, observerInstance) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observerInstance.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.12
+      });
+
+      revealElements.forEach(element => observer.observe(element));
+
+    } else {
+      revealElements.forEach(element => element.classList.add("visible"));
+    }
+
+    // Footer year
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
