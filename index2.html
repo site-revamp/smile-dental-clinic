@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#35264f">
+  <meta name="theme-color" content="#FF8200">
 
   <title>Smile Dental Clinic Mirdif | Clear Aligners & Specialist Dental Care</title>
   <meta name="description" content="Discover personalised dental care at Smile Dental Clinic in Mirdif, Dubai. Explore clear aligners, orthodontics, cosmetic dentistry and family dental treatments.">
@@ -21,25 +21,25 @@
 
   <style>
     :root {
-      --color-primary: #8062a7;
-      --color-primary-dark: #49335f;
-      --color-primary-deep: #30213f;
-      --color-primary-light: #eee8f5;
-      --color-secondary: #c5a5db;
-      --color-secondary-dark: #9470b0;
-      --color-accent: #d9b8a6;
-      --color-heading: #30263b;
-      --color-text: #686071;
-      --color-text-muted: #928a98;
+      --color-primary: #FF8200;
+      --color-primary-dark: #A64200;
+      --color-primary-deep: #332016;
+      --color-primary-light: #FFF0E6;
+      --color-secondary: #FFB27A;
+      --color-secondary-dark: #E65C00;
+      --color-accent: #FFC49A;
+      --color-heading: #30251F;
+      --color-text: #665B54;
+      --color-text-muted: #94877D;
       --color-background: #fffdfb;
-      --color-background-alt: #f8f5fa;
+      --color-background-alt: #FFF8F3;
       --color-surface: #ffffff;
-      --color-surface-alt: #f0eaf5;
-      --color-border: #e9e2ed;
-      --color-border-strong: #d8c9e1;
-      --color-interactive: #735294;
-      --color-interactive-hover: #51396d;
-      --color-focus: #b28bd2;
+      --color-surface-alt: #FFE9DA;
+      --color-border: #F0E2D8;
+      --color-border-strong: #E8C9B5;
+      --color-interactive: #E65C00;
+      --color-interactive-hover: #C94F00;
+      --color-focus: #FF9A52;
 
       --font-heading: "Manrope", sans-serif;
       --font-body: "DM Sans", sans-serif;
@@ -48,8 +48,8 @@
       --radius-small: 12px;
       --radius-medium: 22px;
       --radius-large: 34px;
-      --shadow-soft: 0 16px 45px rgba(54, 36, 72, .08);
-      --shadow-deep: 0 28px 80px rgba(48, 33, 63, .17);
+      --shadow-soft: 0 16px 45px rgba(75, 39, 17, .08);
+      --shadow-deep: 0 28px 80px rgba(75, 39, 17, .17);
     }
 
     *, *::before, *::after {
@@ -174,7 +174,7 @@
     .btn:hover {
       background: var(--color-interactive-hover);
       transform: translateY(-2px);
-      box-shadow: 0 12px 28px rgba(73, 51, 95, .2);
+      box-shadow: 0 12px 28px rgba(122, 47, 0, .20);
     }
 
     .btn-light {
@@ -213,7 +213,7 @@
       gap: 9px;
       padding: 6px 16px;
       background: var(--color-primary-deep);
-      color: #f9f5fc;
+      color: #FFF7F0;
       font-size: 10px;
       font-weight: 600;
       letter-spacing: .07em;
@@ -221,7 +221,7 @@
     }
 
     .announcement span {
-      color: #d9c2e9;
+      color: #FFD0B0;
     }
 
     .navbar {
@@ -229,7 +229,7 @@
       z-index: 1000;
       top: 0;
       background: rgba(255,253,251,.96);
-      border-bottom: 1px solid rgba(73,51,95,.09);
+      border-bottom: 1px solid rgba(122,47,0,.09);
       backdrop-filter: blur(16px);
     }
 
@@ -331,8 +331,8 @@
       align-items: center;
       overflow: hidden;
       background:
-        radial-gradient(ellipse at 82% 25%, rgba(197,165,219,.28), transparent 32%),
-        linear-gradient(110deg, #fcfafc 0%, #f7f2fa 55%, #eee5f3 100%);
+        radial-gradient(ellipse at 82% 25%, rgba(255,178,122,.28), transparent 32%),
+        linear-gradient(110deg, #FFFAF6 0%, #FFF1E7 55%, #FCE5D5 100%);
     }
 
     .hero::before {
@@ -341,7 +341,7 @@
       top: -260px;
       width: 690px;
       height: 690px;
-      border: 1px solid rgba(128,98,167,.16);
+      border: 1px solid rgba(255,102,0,.16);
       border-radius: 50%;
       content: "";
     }
@@ -352,7 +352,7 @@
       top: -180px;
       width: 550px;
       height: 550px;
-      border: 1px solid rgba(128,98,167,.12);
+      border: 1px solid rgba(255,102,0,.12);
       border-radius: 50%;
       content: "";
     }
@@ -395,7 +395,7 @@
     .hero-description {
       max-width: 440px;
       margin: 25px 0 30px;
-      color: #716778;
+      color: #71645B;
       font-size: 15px;
       line-height: 1.9;
     }
@@ -432,7 +432,7 @@
       position: absolute;
       width: 450px;
       height: 450px;
-      border: 1px solid rgba(128,98,167,.19);
+      border: 1px solid rgba(255,102,0,.19);
       border-radius: 50%;
     }
 
@@ -440,7 +440,7 @@
     .smile-orbit::after {
       position: absolute;
       inset: 26px;
-      border: 1px dashed rgba(128,98,167,.18);
+      border: 1px dashed rgba(255,102,0,.18);
       border-radius: 50%;
       content: "";
     }
@@ -455,7 +455,7 @@
       position: relative;
       z-index: 2;
       width: min(100%, 390px);
-      filter: drop-shadow(0 30px 25px rgba(70,46,89,.13));
+      filter: drop-shadow(0 30px 25px rgba(92,48,20,.13));
       animation: tooth-float 6s ease-in-out infinite;
     }
 
@@ -579,7 +579,7 @@
       align-items: center;
       justify-content: center;
       background:
-        radial-gradient(ellipse at center, rgba(197,165,219,.3), transparent 65%),
+        radial-gradient(ellipse at center, rgba(255,178,122,.30), transparent 65%),
         var(--color-background-alt);
       border-radius: 48% 48% 45% 45%;
     }
@@ -587,7 +587,7 @@
     .philosophy-art::before {
       position: absolute;
       inset: 25px;
-      border: 1px solid rgba(128,98,167,.2);
+      border: 1px solid rgba(255,102,0,.20);
       border-radius: 48% 48% 45% 45%;
       content: "";
     }
@@ -619,7 +619,7 @@
     .art-caption small {
       display: block;
       margin-top: 7px;
-      color: #dfd1e9;
+      color: #FFE0CA;
       font-size: 10px;
     }
 
@@ -670,7 +670,7 @@
     }
 
     .capabilities .eyebrow {
-      color: #d7bee9;
+      color: #FFD0B0;
     }
 
     .capabilities .eyebrow::before {
@@ -683,7 +683,7 @@
 
     .capabilities .section-heading p {
       margin-inline: auto;
-      color: #d4c9de;
+      color: #EAD8CC;
     }
 
     .capability-row {
@@ -707,8 +707,8 @@
       position: relative;
       min-height: 205px;
       padding: 27px 25px;
-      border-top: 1px solid rgba(224,205,239,.35);
-      border-bottom: 1px solid rgba(224,205,239,.13);
+      border-top: 1px solid rgba(255,208,176,.35);
+      border-bottom: 1px solid rgba(255,208,176,.13);
       transition: background .3s, transform .3s;
     }
 
@@ -721,7 +721,7 @@
       width: 64px;
       height: 64px;
       margin-bottom: 22px;
-      color: #d8bee9;
+      color: #FFD0B0;
     }
 
     .capability h3 {
@@ -735,7 +735,7 @@
     .capability p {
       max-width: 270px;
       margin: 0;
-      color: #c9bdD3;
+      color: #E4D5CA;
       font-size: 12px;
       line-height: 1.8;
     }
@@ -746,7 +746,7 @@
       position: relative;
       padding-block: 130px;
       overflow: hidden;
-      background: #f7f3f9;
+      background: #FFF3EA;
     }
 
     .aligner-feature::before {
@@ -755,7 +755,7 @@
       left: -220px;
       width: 580px;
       height: 580px;
-      border: 1px solid rgba(128,98,167,.16);
+      border: 1px solid rgba(255,102,0,.16);
       border-radius: 50%;
       content: "";
     }
@@ -774,14 +774,14 @@
       display: grid;
       place-items: center;
       overflow: hidden;
-      background: linear-gradient(145deg, #ded0e9, #f5edf8 65%, #fff);
+      background: linear-gradient(145deg, #F8DCCB, #FFF7F1 65%, #fff);
       border-radius: 5px 160px 5px 5px;
     }
 
     .aligner-visual::before,
     .aligner-visual::after {
       position: absolute;
-      border: 1px solid rgba(128,98,167,.22);
+      border: 1px solid rgba(255,102,0,.22);
       border-radius: 50%;
       content: "";
     }
@@ -801,7 +801,7 @@
       z-index: 2;
       width: 80%;
       max-width: 410px;
-      filter: drop-shadow(0 20px 24px rgba(70,46,89,.14));
+      filter: drop-shadow(0 20px 24px rgba(92,48,20,.14));
     }
 
     .aligner-stamp {
@@ -813,7 +813,7 @@
       height: 112px;
       display: grid;
       place-items: center;
-      border: 1px solid rgba(73,51,95,.3);
+      border: 1px solid rgba(122,47,0,.30);
       border-radius: 50%;
       color: var(--color-primary-dark);
       font-size: 10px;
@@ -890,7 +890,7 @@
       right: 12%;
       left: 12%;
       height: 1px;
-      background: linear-gradient(90deg, transparent, #c7afd7 12%, #c7afd7 88%, transparent);
+      background: linear-gradient(90deg, transparent, #F4B88F 12%, #F4B88F 88%, transparent);
       content: "";
     }
 
@@ -1046,7 +1046,7 @@
       bottom: -180px;
       width: 420px;
       height: 420px;
-      border: 1px solid rgba(128,98,167,.25);
+      border: 1px solid rgba(255,102,0,.25);
       border-radius: 50%;
       content: "";
     }
@@ -1086,7 +1086,7 @@
 
     .faq {
       padding-block: 110px;
-      background: #f9f6fa;
+      background: #FFF7F1;
     }
 
     .faq-grid {
@@ -1178,7 +1178,7 @@
     }
 
     .location-content .eyebrow {
-      color: #d7bee9;
+      color: #FFD0B0;
     }
 
     .location-content h2 {
@@ -1193,7 +1193,7 @@
 
     .location-content p {
       max-width: 450px;
-      color: #d3c7de;
+      color: #EAD8CC;
     }
 
     .location-details {
@@ -1212,13 +1212,13 @@
 
     .location-detail svg {
       flex-shrink: 0;
-      color: #d7bee9;
+      color: #FFD0B0;
     }
 
     .location-detail small {
       display: block;
       margin-bottom: 4px;
-      color: #c2b2d1;
+      color: #DCC7B8;
       font-size: 9px;
       font-weight: 700;
       letter-spacing: .13em;
@@ -1232,7 +1232,7 @@
       place-items: center;
       border: 1px solid rgba(255,255,255,.18);
       background:
-        radial-gradient(ellipse at center, rgba(197,165,219,.18), transparent 65%),
+        radial-gradient(ellipse at center, rgba(255,178,122,.18), transparent 65%),
         repeating-linear-gradient(0deg, transparent, transparent 49px, rgba(255,255,255,.055) 50px),
         repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(255,255,255,.055) 50px);
     }
@@ -1257,8 +1257,8 @@
 
     .footer {
       padding-block: 65px 25px;
-      background: #241a30;
-      color: #cfc5d7;
+      background: #2B1B12;
+      color: #D8C9BE;
     }
 
     .footer-main {
@@ -1296,7 +1296,7 @@
     }
 
     .footer-links a:hover {
-      color: #d7bee9;
+      color: #FFD0B0;
     }
 
     .footer-contact {
@@ -1328,7 +1328,7 @@
       padding: 9px 12px calc(9px + env(safe-area-inset-bottom));
       background: rgba(255,255,255,.97);
       border-top: 1px solid var(--color-border);
-      box-shadow: 0 -8px 25px rgba(48,33,63,.08);
+      box-shadow: 0 -8px 25px rgba(75,39,17,.08);
       backdrop-filter: blur(12px);
     }
 
@@ -1866,9 +1866,9 @@
 
       <a href="#home" class="brand" aria-label="Smile Dental Clinic homepage">
         <svg class="brand-symbol" viewBox="0 0 60 60" fill="none" aria-hidden="true">
-          <path d="M30 5C20 5 10 10 10 23C10 36 17 52 24 52C29 52 27 37 31 37C35 37 33 52 39 52C47 52 52 34 51 22C50 10 40 5 30 5Z" fill="#8062A7"/>
+          <path d="M30 5C20 5 10 10 10 23C10 36 17 52 24 52C29 52 27 37 31 37C35 37 33 52 39 52C47 52 52 34 51 22C50 10 40 5 30 5Z" fill="#FF8200"/>
           <path d="M18 23C24 28 36 28 43 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M21 15C25 12 35 12 40 15" stroke="#DCC9E9" stroke-width="2" stroke-linecap="round"/>
+          <path d="M21 15C25 12 35 12 40 15" stroke="#FFE0CA" stroke-width="2" stroke-linecap="round"/>
         </svg>
         <span class="brand-name">
           Smile Dental
@@ -1939,19 +1939,19 @@
             <defs>
               <linearGradient id="toothMain" x1="95" y1="40" x2="350" y2="420" gradientUnits="userSpaceOnUse">
                 <stop stop-color="#FFFFFF"/>
-                <stop offset=".55" stop-color="#F5F0FA"/>
-                <stop offset="1" stop-color="#D9C9E7"/>
+                <stop offset=".55" stop-color="#FFF4EC"/>
+                <stop offset="1" stop-color="#F4D9C7"/>
               </linearGradient>
               <linearGradient id="toothEdge" x1="120" y1="80" x2="320" y2="390" gradientUnits="userSpaceOnUse">
                 <stop stop-color="#FFFFFF"/>
-                <stop offset="1" stop-color="#BCA2D1"/>
+                <stop offset="1" stop-color="#EAB38F"/>
               </linearGradient>
               <filter id="toothShadow" x="20" y="20" width="400" height="450" filterUnits="userSpaceOnUse">
                 <feGaussianBlur stdDeviation="10"/>
               </filter>
             </defs>
 
-            <ellipse cx="220" cy="418" rx="115" ry="17" fill="#8062A7" opacity=".14" filter="url(#toothShadow)"/>
+            <ellipse cx="220" cy="418" rx="115" ry="17" fill="#FF8200" opacity=".14" filter="url(#toothShadow)"/>
 
             <path d="M220 68C162 28 82 58 68 132C57 192 92 247 119 316C138 364 142 407 171 408C199 409 195 343 222 342C249 341 249 410 281 408C311 406 313 361 333 315C360 250 393 192 372 127C350 59 277 32 220 68Z"
               fill="url(#toothMain)" stroke="url(#toothEdge)" stroke-width="5"/>
@@ -1959,13 +1959,13 @@
             <path d="M100 131C112 91 152 75 181 89" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity=".8"/>
             <path d="M115 153C124 124 146 108 169 107" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity=".75"/>
 
-            <path d="M121 231C169 266 272 272 323 226" stroke="#B49BCB" stroke-width="4" stroke-linecap="round" opacity=".35"/>
+            <path d="M121 231C169 266 272 272 323 226" stroke="#E5AA82" stroke-width="4" stroke-linecap="round" opacity=".35"/>
 
-            <path d="M132 280C164 315 274 321 310 279" stroke="#C4B0D6" stroke-width="2" opacity=".45"/>
+            <path d="M132 280C164 315 274 321 310 279" stroke="#F0C7AA" stroke-width="2" opacity=".45"/>
 
             <circle cx="343" cy="105" r="13" fill="#FFFFFF" opacity=".85"/>
             <circle cx="366" cy="133" r="5" fill="#FFFFFF"/>
-            <circle cx="83" cy="213" r="7" fill="#D4C1E2"/>
+            <circle cx="83" cy="213" r="7" fill="#F6D8C3"/>
           </svg>
 
           <div class="hero-note one">
@@ -2032,12 +2032,12 @@
           <svg viewBox="0 0 500 440" fill="none" aria-hidden="true">
             <defs>
               <linearGradient id="faceGradient" x1="80" y1="20" x2="430" y2="430" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#D7C4E5"/>
-                <stop offset="1" stop-color="#A786C0"/>
+                <stop stop-color="#F8DDCB"/>
+                <stop offset="1" stop-color="#D98A58"/>
               </linearGradient>
               <linearGradient id="faceHighlight" x1="200" y1="50" x2="350" y2="360" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F9F4FC"/>
-                <stop offset="1" stop-color="#E4D5EF"/>
+                <stop stop-color="#FFF8F3"/>
+                <stop offset="1" stop-color="#F8E1D2"/>
               </linearGradient>
             </defs>
 
@@ -2047,15 +2047,15 @@
 
             <path d="M172 120C205 91 270 82 319 107C362 128 380 171 373 217C365 264 337 312 296 335C254 359 210 339 184 309C150 271 137 161 172 120Z" fill="url(#faceHighlight)" opacity=".85"/>
 
-            <path d="M176 206C192 189 217 186 234 199" stroke="#8062A7" stroke-width="5" stroke-linecap="round"/>
-            <path d="M282 198C302 183 326 189 342 204" stroke="#8062A7" stroke-width="5" stroke-linecap="round"/>
-            <path d="M197 265C234 292 284 294 320 261" stroke="#8062A7" stroke-width="5" stroke-linecap="round"/>
+            <path d="M176 206C192 189 217 186 234 199" stroke="#FF8200" stroke-width="5" stroke-linecap="round"/>
+            <path d="M282 198C302 183 326 189 342 204" stroke="#FF8200" stroke-width="5" stroke-linecap="round"/>
+            <path d="M197 265C234 292 284 294 320 261" stroke="#FF8200" stroke-width="5" stroke-linecap="round"/>
             <path d="M208 266C246 279 279 280 310 264" stroke="white" stroke-width="9" stroke-linecap="round"/>
 
-            <path d="M247 214L242 245L256 250" stroke="#B38FCA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M247 214L242 245L256 250" stroke="#E8A77D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-            <circle cx="122" cy="139" r="8" fill="#8062A7"/>
-            <circle cx="380" cy="295" r="6" fill="#C5A5DB"/>
+            <circle cx="122" cy="139" r="8" fill="#FF8200"/>
+            <circle cx="380" cy="295" r="6" fill="#FFB27A"/>
             <path d="M72 370L109 370L125 350" stroke="#B99FCC" stroke-width="2"/>
             <path d="M382 73L419 73L436 94" stroke="#B99FCC" stroke-width="2"/>
           </svg>
@@ -2189,9 +2189,9 @@
 
             <path d="M129 201C151 218 170 220 190 205M193 204C207 216 232 216 247 204M250 205C271 219 291 216 311 199" stroke="#A78ABD" stroke-width="3" stroke-linecap="round"/>
 
-            <path d="M133 123L111 96M307 123L329 96" stroke="#8062A7" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 6"/>
-            <circle cx="111" cy="96" r="5" fill="#8062A7"/>
-            <circle cx="329" cy="96" r="5" fill="#8062A7"/>
+            <path d="M133 123L111 96M307 123L329 96" stroke="#FF8200" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 6"/>
+            <circle cx="111" cy="96" r="5" fill="#FF8200"/>
+            <circle cx="329" cy="96" r="5" fill="#FF8200"/>
 
             <path d="M220 18V2M385 190H418M54 190H22" stroke="#A78ABD" stroke-width="2" stroke-linecap="round"/>
           </svg>
